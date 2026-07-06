@@ -231,9 +231,3 @@ LEDs [7:4] light up during forwarding operations!
 5. **Only stalls for LOAD-USE** - All other hazards resolved by forwarding
 
 ---
-
-## Author
-
-**Omkar**
-- LinkedIn: [Your LinkedIn URL]
-- GitHub: [Your GitHub URL]
