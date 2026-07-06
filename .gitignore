@@ -1,0 +1,29 @@
+# Vivado generated files
+*.jou
+*.log
+*.str
+*.xpr
+*.bit
+*.ltx
+
+# Vivado project folders
+.Xil/
+*/impl_1/
+*/synth_1/
+*/sim_1/
+*.runs/
+*.cache/
+*.hw/
+*.ip_user_files/
+*.sim/
+*.gen/
+
+# Simulation files
+*.wdb
+*.wcfg
+
+# Bitstream
+*.bit
+*.bin
+
+# Keep only source files!
