@@ -1,6 +1,6 @@
 # Simple-8 Pipelined RISC Processor
 
-A 5-stage pipelined RISC processor designed from scratch in SystemVerilog, featuring data forwarding and hazard detection, verified through simulation and successfully deployed on a Basys3 FPGA board.
+A 5-stage pipelined RISC processor designed from scratch in Verilog, featuring data forwarding and hazard detection, verified through simulation and successfully deployed on a Basys3 FPGA board.
 
 ---
 
@@ -150,7 +150,7 @@ simple8-pipelined-processor/
 
 | Tool              | Version   | Purpose                        |
 |-------------------|-----------|--------------------------------|
-| SystemVerilog     | -         | RTL Design Language            |
+| Verilog     | -         | RTL Design Language            |
 | Xilinx Vivado     | 2025.2    | Synthesis, Implementation, Sim |
 | Basys3 FPGA       | Artix-7   | Hardware Deployment            |
 
@@ -164,11 +164,11 @@ simple8-pipelined-processor/
 4. Add files from `sim/` as **Simulation Sources**
 5. Set `pipeline_cpu_tb` as simulation top module
 6. Select test number in `instruction_memory_sim.v`:
-   ```systemverilog
+   ```verilog
    parameter TEST_SELECT = 1;  // Change to 1, 2, 3, or 4
    ```
 7. Update matching test number in `pipeline_cpu_tb.v`:
-   ```systemverilog
+   ```verilog
    parameter TEST_NUM = 1;  // Must match TEST_SELECT
    ```
 8. Click **Run Simulation** → **Run Behavioral Simulation**
